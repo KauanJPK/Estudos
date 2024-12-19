@@ -1,0 +1,1 @@
+Apenas um workspace para teste de códigos, utilizo aqui JavaScript, Python e Frameworks de ambos.
