@@ -17,4 +17,19 @@ class App:
     def maioremenor(self):
         return np.min(self.arr), np.max(self.arr)
     
- 
+    def matrizes(self):
+        m1 = np.random.randint(100, size=(3, 3))
+        m2 = np.random.randint(100, size=(3, 3))
+        print("Matriz 1:\n", m1)
+        print("Produto da matriz 1:\n", np.dot(m1, m1))
+        print("Matriz 2:\n", m2)
+        print("Produto da matriz 2:\n", np.dot(m2, m2))
+        print("Produto das Matrizes:\n", np.dot(m1, m2))
+
+
+    def valoresespacados(self):
+        self.arr = np.linspace(0, np.pi, 50)
+        print("Valores Espaçados:\n", self.arr)
+        print("Seno dos Valores Espaçados:\n", np.sin(self.arr))
+        print("Cosseno dos Valores Espaçados:\n", np.cos(self.arr))
+App()
